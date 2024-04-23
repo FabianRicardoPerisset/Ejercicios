@@ -1,0 +1,6 @@
+palabra1 = input("ingrese una letra: ")
+palabra2 = input("ingrese otra letra: ")
+if palabra1 == palabra2:
+    print("Las palabras ingresadas son iguales")
+else:
+    print("Las palabras que ingreso son diferentes")    
