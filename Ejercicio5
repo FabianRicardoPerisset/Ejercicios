@@ -1,0 +1,13 @@
+Valor_dolar = 1300
+cambio = int(input("opcion 1: peso a dolar, opcion 2: dolar a peso: "))
+
+if cambio == 1:
+    pesos = float(input("Ingrese la cantidad que desea cambiar: "))
+    total = pesos / Valor_dolar
+    print("Va a recibir", total, "dolares.")
+elif cambio == 2:
+    pesos = float(input("Ingrese la cantidad que desea cambiar: "))
+    total_pesos = Valor_dolar * pesos
+    print("Va a recibir", total_pesos, "pesos")
+else:
+    print("Opcion incorrecta")  
