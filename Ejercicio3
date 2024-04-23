@@ -1,0 +1,7 @@
+genero = input("Ingrese su género: M/F: ")
+
+
+if genero.upper() == "M":
+    print("Usted vota en mesa masculina")
+else:
+    print("Usted vota en mesa femenina")
