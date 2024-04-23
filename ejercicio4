@@ -1,0 +1,7 @@
+numero1 = input("Escriba un numero: ")
+numero2 = input("Escriba otro numero diferente: ")
+
+if numero1 > numero2:
+    print("El numero " + numero1 + " es mayor que el numero " + numero2)
+else:
+    print("El numero " + numero1 + " es menor que el numero " + numero2)
