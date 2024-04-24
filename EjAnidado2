@@ -1,0 +1,24 @@
+importe = float(input("Ingrese el importe de su compra: "))
+usuario = int(input("Forma de pago: Contado 1, Tarjeta 2, Debito 3: "))
+
+
+if usuario == 1:
+    descuento = importe * 0.1
+    importe_total = importe - descuento
+    print("Valor original: ", importe)
+    print("Descuento: ", descuento)
+    print("Precio final: ", importe_total)
+elif usuario == 2:
+    interes = importe * 0.1
+    importe_total = importe + interes
+    print("Valor original: ", importe)
+    print("Interes: ", interes)
+    print("Precio final: ", importe_total)
+elif usuario == 3:
+    descuento = importe * 0.05
+    importe_total = importe - descuento
+    print("Valor original: ", importe)
+    print("Descuento: ", descuento)
+    print("Precio final: ", importe_total)
+else:
+    print("Opcion incorrecta")
