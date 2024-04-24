@@ -1,0 +1,27 @@
+mes = int(input("Ingrese un numero del 1 al 12: "))
+if mes == 1:
+    print("Estamos en enero")
+elif mes == 2:
+    print("Estamos en febrero")
+elif mes == 3:
+    print("Estamos en marzo")
+elif mes == 4:
+    print("Estamos en abril")
+elif mes == 5:
+    print("Estamos en mayo")
+elif mes == 6:
+    print("Estamos en junio")
+elif mes == 7:
+    print("Estamos en julio")
+elif mes == 8:
+    print("Estamos en agosto")
+elif mes == 9:
+    print("Estamos en septiembre")
+elif mes == 10:
+    print("Estamos en octubre")
+elif mes == 11:
+    print("Estamos en noviembre")
+elif mes == 12:
+    print("Estamos en diciembre")
+else:
+    print("Ingreso un numero incorrecto")
