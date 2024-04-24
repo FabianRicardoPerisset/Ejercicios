@@ -1,0 +1,16 @@
+num1 = int(input("Escriba un numero: "))
+num2 = int(input("Escriba otro numero: "))
+num3 = int(input("Escriba el ultimo numero: "))
+if num1 > num2 and num1 > num3:
+    mayor = num1
+elif num2 > num1 and num2 > num3:
+    mayor = num2
+else:
+    mayor = num3
+if num1 == num2 == num3:
+    mayor = num1
+if mayor % 2 == 0:
+    numero_mayor = "par"
+else:
+    numero_mayor = "impar"
+    print("El numero:", mayor, "es el mayor, y es:", numero_mayor)
